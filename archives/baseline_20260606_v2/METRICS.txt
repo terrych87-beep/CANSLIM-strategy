@@ -1,0 +1,25 @@
+baseline_tag=v2.0.0-baseline-20260606
+source_run=outputs/backtest/20260606_130020_20160101-20260606_R+2930.08pct
+captured=2026-06-06
+
+backtest_start=2016-01-01
+backtest_end=2026-06-06
+trade_days=2530
+
+local_open_count=231
+local_close_count=231
+local_trade_count=462
+local_total_return=29.300806599275898
+
+roll_regression=PASS
+note=交易延续至 2026-04-23，无 v1 僵尸持仓
+
+# 聚宽流水对账（参考，非 v2 门禁）
+jq_trades=238
+jq_range=2021-01-04 .. 2026-04-23
+structural_aligned_strict=0
+path_splits=238
+field_mismatches_after_align=0
+compare_note=本地自 2016 交易 + 震荡 C 类规则分叉，与 v1 的 171/238 不可比
+
+v1_baseline_align_rate=171/238 (71.8%) for run_20260604_171927 only

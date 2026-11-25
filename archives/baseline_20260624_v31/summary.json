@@ -1,0 +1,9 @@
+{
+  "baseline": "v3.1.0-baseline-20260624",
+  "parent_baseline": "v3.0.0-baseline-20260620",
+  "source_run": "outputs/backtest/20260623_112914_20160101-20260623_R+17793.60pct",
+  "start_date": "2016-01-01",
+  "end_date": "2026-06-23",
+  "total_return_pct": 17793.6,
+  "notes": "14:57 break_up uses exact 1m when present else 30m; FEATURE_SIGNAL_VERSION=2"
+}

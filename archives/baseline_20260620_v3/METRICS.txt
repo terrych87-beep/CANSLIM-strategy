@@ -1,0 +1,32 @@
+baseline_tag=v3.0.0-baseline-20260620
+parent_tag=v2.1.0-baseline-20260607
+captured=2026-06-20
+
+# v3 正式验收 run
+source_run=outputs/backtest/20260620_134610_20160101-20260620_R+264683.62pct
+backtest_start=2016-01-01
+backtest_end=2026-06-20
+trade_days=2539
+local_open_count=236
+local_close_count=235
+local_trade_count=471
+local_total_return_pct=264683.62
+last_trade=2026-06-09 14:57 open long IF2607
+sync_skipped=yes
+
+# 性能（v3 代码，2021 全年）
+perf_backtest_2021_sec=~9.6
+perf_sync_covered_sec=~0.14
+perf_get_div_info_1944x_sec=~0.54
+
+# v3 工程
+feature_store_cache=yes
+debug_state_default=off
+live_data_incremental=tail+datalen+skip_write
+daily_supplement_from_30m=yes
+live_data_script_in_git=data/实时数据运行.py
+
+# 历史误导 run（手数 bug，勿作验收）
+buggy_run=outputs/backtest/20260620_133147_20160101-20260620_R+13892.46pct
+buggy_last_trade=2022-06-15
+buggy_stall=open_failed insufficient_cash

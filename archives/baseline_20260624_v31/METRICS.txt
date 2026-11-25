@@ -1,0 +1,31 @@
+baseline_tag=v3.1.0-baseline-20260624
+parent_tag=v3.0.0-baseline-20260620
+captured=2026-06-24
+
+# v3.1 参考 run（30m 14:57 fallback 基线）
+source_run=outputs/backtest/20260623_112914_20160101-20260623_R+17793.60pct
+backtest_start=2016-01-01
+backtest_end=2026-06-23
+local_total_return_pct=17793.60
+
+# v3.1 数据口径
+unclosed_bar_filter=data/bar_filters.py
+daily_before_1500=no_today_1d
+if_runpoints_script=data/期货合约数据获取.py
+if_30m_fail_fallback_sina_1m=yes
+if_intraday_today_without_daily_calendar=yes
+
+# v3.1 工程归档
+cleanup_data_underscore_txt=yes
+scratch_dir=待移出项目/ (gitignored)
+tools_dapan_index=tools/大盘指数爬取.py
+module_comments=engine/data_loader style on data/scripts/entries
+governance_readme=quant_migration_governance/README.md
+scripts_index=scripts/README.md
+feature_signal_version=2
+break_up_1457=1m_exact_or_30m_fallback
+rebuild_features_required_after_break_up_change=yes
+
+# 误导 run（勿作验收）
+bad_run=outputs/backtest/20260623_164330_20160101-20260623_R+3924.43pct
+bad_reason=naive_1m_asof_on_missing_1457

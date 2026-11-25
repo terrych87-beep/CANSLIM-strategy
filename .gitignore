@@ -1,0 +1,63 @@
+# 数据与聚宽流水（本地路径，不进仓）
+data/*
+!data/.env.example
+!data/README.md
+!data/实时数据运行.py
+!data/期货合约数据获取.py
+!data/bar_filters.py
+transaction.csv
+
+# 开发期诊断输出（勿提交）
+data/_*.txt
+
+# 待移出项目的个人 scratch（整目录可删或移到仓库外）
+待移出项目/
+
+# 回测产物
+outputs/
+
+# CANSLIM 本地缓存与临时导出脚本缓存
+screener/canslim/cache/
+screener/_export_docs_and_excel.py.tmp
+
+# 大体积可选：若不想把全池明细推进仓，可取消下一行注释
+# screener/CANSLIM_全池评分明细.xlsx
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+
+# 密钥与本地配置
+.env
+.env.*
+
+# IDE / 本地代理
+.idea/
+.vscode/
+.cursor/
+.workbuddy/
+*.swp
+*.swo
+__pycache__/
+*.7z
+
+# 本地大文件与运行痕迹（非 CANSLIM 交付物）
+大盘资金流向*.xlsx
+大盘资金流向_lastfilemtime.txt
+大盘指数模板.xlsx
+基于中枢的macd交易逻辑交易策略验证.txt
+transaction.csv
+debug_trace_run.py
+debug_trace_run.7z
+
+# 系统
+Thumbs.db
+Desktop.ini
+
+# 超大聚宽全量日志（保留代码与治理文档即可）
+*验证日志.txt

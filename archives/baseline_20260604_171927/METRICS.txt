@@ -1,0 +1,13 @@
+baseline_tag=v1.0.0-baseline-20260604
+source_run=outputs/backtest/run_20260604_171927
+captured=2026-06-04
+
+jq_trades=238
+local_trades=218
+aligned_strict=171
+align_rate=71.8%
+path_splits=38
+field_mismatches_after_align=0
+
+local_total_return=10.073455949783972
+local_trade_count=218

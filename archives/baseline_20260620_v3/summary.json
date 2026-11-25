@@ -1,0 +1,14 @@
+{
+  "baseline": "v3.0.0-baseline-20260620",
+  "source_run": "outputs/backtest/20260620_134610_20160101-20260620_R+264683.62pct",
+  "start_date": "2016-01-01",
+  "end_date": "2026-06-20",
+  "trade_days": 2539,
+  "open_count": 236,
+  "close_count": 235,
+  "trade_count": 471,
+  "total_return": 2646.836178128455,
+  "total_return_pct": 264683.62,
+  "last_trade": "2026-06-09 14:57 open long IF2607",
+  "sync_skipped": true
+}
