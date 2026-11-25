@@ -2,7 +2,9 @@
 
 > 位置：`screener/canslim/`（与中枢 MACD / IF 策略**完全隔离**，只出名单，不自动下单）  
 > 口径台账：`docs/plans/CANSLIM_落地步骤.md`  
-> 模块串联需求：同目录 [`CANSLIM_模块需求说明书.md`](./CANSLIM_模块需求说明书.md)
+> 模块串联需求：同目录 [`CANSLIM_模块需求说明书.md`](./CANSLIM_模块需求说明书.md)  
+> PDF：`CANSLIM_使用说明.pdf`、`CANSLIM_模块需求说明书.pdf`  
+> 全池明细 Excel：`CANSLIM_全池评分明细.xlsx`（含「全池明细 / X≥3 / X=4 / 字段说明」）
 
 ---
 
